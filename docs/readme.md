@@ -58,7 +58,7 @@ Link to Data on Google Drive: [https://drive.google.com/drive/folders/1SPbN6_0C-
 Link to code on GitHub: [https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main/perivascular-immune-cells-in-lung](https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main/perivascular-immune-cells-in-lung) 
 
 
-[<img alt="alt_text" width="84px" src="images/button_load.png" />](https:example.com)\
+[<img alt="alt_text" width="84px" src="images/button_load.png" />](https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main)\
 <img alt="alt_text" width="75%" src="images/eui_lung_preview_placeholder.png">
 
 ---
@@ -71,6 +71,6 @@ Link to Data Collection on HuBMAP Portal: [https://portal.hubmapconsortium.org/b
 Link to worksheet on GitHub: [https://github.com/HickeyLab/Hierarchical-Tissue-Unit-Annotation](https://github.com/HickeyLab/Hierarchical-Tissue-Unit-Annotation)
 
 
-[<img alt="alt_text" width="84px" src="images/button_load.png" />](https:example.com)\
+[<img alt="alt_text" width="84px" src="images/button_load.png" />](https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main)\
 <img alt="alt_text" width="75%" src="images/eui_colon_preview_placeholder.png">
 ---
