@@ -15,9 +15,9 @@ Katy Börner<sup>1,\*</sup>, Philip D. Blood<sup>2,3</sup>, Jonathan C. Silverst
 <sup>11</sup> Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA\
 
 \* Corresponding authors: \
-Katy Börner, katy@iu.edu\
-Andreas Bueckle, abueckle@iu.edu\
-Bruce W. Herr II, bherr@iu.edu
+Katy Börner, <katy@iu.edu>\
+Andreas Bueckle, <abueckle@iu.edu>\
+Bruce W. Herr II, <bherr@iu.edu>
 
 ---
 
