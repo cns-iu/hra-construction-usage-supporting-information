@@ -28,7 +28,12 @@ Bruce W. Herr II, <bherr@iu.edu>
 
 #### **Flexible hybrid cloud microservices architecture**
 
-<img alt="alt_text" width="75%" src="images/HuBMAP Microservices Arch - 3.1.2024.png">
+<img alt="alt_text" width="75%" src="images/HuBMAP Microservices Arch - 3.1.2024.png"> \
+
+
+Permanent links to the current version used in the paper: 
+ - [https://github.com/hubmapconsortium/software-docs/blob/097fea2fbf0d885df01cf6926a3c9ecaf1ed2ebf/src/HuBMAP%20Services%20Architecture.drawio](https://github.com/hubmapconsortium/software-docs/blob/097fea2fbf0d885df01cf6926a3c9ecaf1ed2ebf/src/HuBMAP%20Services%20Architecture.drawio)
+ - [https://github.com/hubmapconsortium/software-docs/blob/097fea2fbf0d885df01cf6926a3c9ecaf1ed2ebf/docs/hubmap-services-arch.html](https://github.com/hubmapconsortium/software-docs/blob/097fea2fbf0d885df01cf6926a3c9ecaf1ed2ebf/docs/hubmap-services-arch.html)
 
 ---
 
