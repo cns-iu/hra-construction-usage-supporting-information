@@ -59,11 +59,11 @@ Explore at [https://humanatlas.io/overview-use-the-hra](https://humanatlas.io/ov
 
 A use case featuring an example application using the Vitessce visualization tool to visualize similar locations of healthy adult compared to pediatric lung with BPD disease to demonstrate an assessment of multiple cell types relative to nearest endothelial cell nuclei using single-cell spatial protein biomarker data.
 
-Link to Data on Google Drive: [https://drive.google.com/drive/folders/1SPbN6_0C-mVWbfE5r2OTVZLMxBjiEKnI?usp=sharing](https://drive.google.com/drive/folders/1SPbN6_0C-mVWbfE5r2OTVZLMxBjiEKnI?usp=sharing )
+Link to Data on Google Drive: [https://drive.google.com/drive/folders/1SPbN6_0C-mVWbfE5r2OTVZLMxBjiEKnI?usp=sharing](https://drive.google.com/drive/folders/1SPbN6_0C-mVWbfE5r2OTVZLMxBjiEKnI?usp=sharing ) \
 Link to code on GitHub: [https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main/perivascular-immune-cells-in-lung](https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main/perivascular-immune-cells-in-lung) 
 
 
-[<img alt="alt_text" width="84px" src="images/button_load.png" />](https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main)\
+[<img target="_blank" alt="alt_text" width="84px" src="images/button_load.png" />](https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main)\
 <img alt="alt_text" width="75%" src="images/eui_lung_preview_placeholder.png">
 
 ---
@@ -72,17 +72,17 @@ Link to code on GitHub: [https://github.com/cns-iu/hra-construction-usage-suppor
 
 A use case featuring a code template for hierarchical cell neighborhood analysis. The code was developed for analyzing cell type neighborhoods across scales and we have named some of these scales: cellular “neighborhoods”, “communities”, and “functional tissue units.” The calculation of similar cellular neighborhoods, communities, and tissue units across different scales is analogous to how we might think that people form neighborhoods, cities, and states.
 
-Link to Data Collection on HuBMAP Portal: [https://portal.hubmapconsortium.org/browse/publication/77ab35880329b5932380104aa58795a4](https://portal.hubmapconsortium.org/browse/publication/77ab35880329b5932380104aa58795a4)
+Link to Data Collection on HuBMAP Portal: [https://portal.hubmapconsortium.org/browse/publication/77ab35880329b5932380104aa58795a4](https://portal.hubmapconsortium.org/browse/publication/77ab35880329b5932380104aa58795a4) \
 Link to worksheet on GitHub: [https://github.com/HickeyLab/Hierarchical-Tissue-Unit-Annotation](https://github.com/HickeyLab/Hierarchical-Tissue-Unit-Annotation)
 
 
-[<img alt="alt_text" width="84px" src="images/button_load.png" />](https://hubmapconsortium.github.io/hra-registrations/hubmap-intestine-snyder-2023/)\
-<img alt="alt_text" width="75%" src="images/eui_colon_preview_placeholder.png">
+[<img target="_blank" alt="alt_text" width="84px" src="images/button_load.png" />](https://hubmapconsortium.github.io/hra-registrations/hubmap-intestine-snyder-2023/)\
+<img alt="alt_text" width="75%" src="images/john_hickey_eui.png">
 
-The cell type predictions for the same dataset, using the current version of the cell type model by the van Valen lab (see Methods) are also made available at [add link]. 
+The cell type predictions for the same dataset, using the current version of the cell type model by the van Valen lab (see Methods) are also made available at [https://drive.google.com/drive/folders/1W0MVcc4Zx1pPHmshSohhzYIcvFxyFBDi](https://drive.google.com/drive/folders/1W0MVcc4Zx1pPHmshSohhzYIcvFxyFBDi). 
 Below, we show a comparison between the original STELLAR predictions (left) vs. the predictions from the current version of the cell type model (right) for one dataset. We also show a confusion matrix for the cell type categories for the same dataset.
 
-<img alt="alt_text" width="75%" src="images/john_h_1_placeholder.png"> \
+<img alt="alt_text" width="75%" src="images/prediction-comparison.png"> \
 
-<img alt="alt_text" width="75%" src="images/john_h_2_placeholder.png">
+<img alt="alt_text" width="75%" src="images/confusion_matrix.png">
 ---
