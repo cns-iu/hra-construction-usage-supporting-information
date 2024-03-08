@@ -1,4 +1,4 @@
-# **Companion Website for &quot;Human BioMolecular Atlas Program (HuBMAP): 3D Human Reference Atlas Construction and Usage&quot;**
+# **Supporting Information for &quot;Human BioMolecular Atlas Program (HuBMAP): 3D Human Reference Atlas Construction and Usage&quot;**
 
 Katy Börner<sup>1,\*</sup>, Philip D. Blood<sup>2,3</sup>, Jonathan C. Silverstein<sup>4</sup>, Matthew Ruffalo<sup>3</sup>, Sarah A. Teichmann<sup>5</sup>, Gloria Pryhuber<sup>6</sup>, Ravi Misra<sup>6</sup>, Jeffrey Purkerson<sup>6</sup>, Jean Fan<sup>7</sup>, John W. Hickey<sup>8</sup>, Gesmira Molla<sup>9</sup>, Chuan Xu<sup>5</sup>, Yun Zhang<sup>10</sup> Griffin Weber<sup>11</sup>, Yashvardhan Jain<sup>1</sup>, Danial Qaurooni<sup>1</sup>, Yongxin Kong<sup>1</sup>, HRA Team, Andreas Bueckle<sup>1,\*</sup>, Bruce W. Herr II<sup>1,\*</sup>
 
