@@ -64,8 +64,7 @@ Link to data on Google Drive: [https://drive.google.com/drive/folders/1LX4PHzohr
 Link to code on GitHub: [https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main/perivascular-immune-cells-in-lung](https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main/perivascular-immune-cells-in-lung) 
 
 
-[<img alt="alt_text" width="84px" src="images/button_load.png" />](https://hubmapconsortium.github.io/hra-registrations/)
-
+<a target="_blank" href="https://hubmapconsortium.github.io/hra-registrations/"><img alt="alt_text" width="84px" src="images/button_load.png" /></a>
 
 <a target="_blank" href="https://hubmapconsortium.github.io/hra-registrations/"><img alt="alt_text" width="75%" src="images/eui_lung_preview_placeholder.png"></a>
 
@@ -78,9 +77,7 @@ A use case featuring a code template for hierarchical cell neighborhood analysis
 Link to Nature paper and data: [https://portal.hubmapconsortium.org/browse/publication/77ab35880329b5932380104aa58795a4](https://portal.hubmapconsortium.org/browse/publication/77ab35880329b5932380104aa58795a4) \
 Link to worksheet on GitHub: [https://github.com/HickeyLab/Hierarchical-Tissue-Unit-Annotation](https://github.com/HickeyLab/Hierarchical-Tissue-Unit-Annotation)
 
-
-[<img target="_blank" alt="alt_text" width="84px" src="images/button_load.png" />](https://hubmapconsortium.github.io/hra-registrations/hubmap-intestine-snyder-2023/)
-
+<a target="_blank" href="https://hubmapconsortium.github.io/hra-registrations/hubmap-intestine-snyder-2023/"><img alt="alt_text" width="84px" src="images/button_load.png" /></a>
 
 <a target="_blank" href="https://hubmapconsortium.github.io/hra-registrations/hubmap-intestine-snyder-2023/"><img alt="alt_text" width="75%" src="images/john_hickey_eui.png"></a>
 
