@@ -22,4 +22,4 @@ Bruce W. Herr II, <bherr@iu.edu>
 ---
 
 [Link to HuBMAP Portal](https://portal.hubmapconsortium.org)\
-[Link to HRA Portal](https://humanatlas.io)\
+[Link to HRA Portal](https://humanatlas.io)
