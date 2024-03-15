@@ -7,7 +7,7 @@ Katy Börner<sup>1,\*,2</sup>, Philip D. Blood<sup>3</sup>, Jonathan C. Silverst
 <sup>3</sup> Pittsburgh Supercomputing Center, Carnegie Mellon University, Pittsburgh, PA, USA\
 <sup>4</sup> Department of Biomedical Informatics, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA\
 <sup>5</sup> Ray and Stephanie Lane Computational Biology Department, Carnegie Mellon University, Pittsburgh, PA, USA
-<sup>6</sup> Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK\
+<sup>2,6</sup> Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK\
 <sup>7</sup> University of Rochester Medical Center, Rochester, NY, USA\
 <sup>8</sup> Department of Biomedical Engineering, Johns Hopkins University, Baltimore MD, USA\
 <sup>9</sup> Department of Biomedical Engineering, Duke University, Durham, NC, USA\
