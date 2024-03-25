@@ -92,3 +92,13 @@ Below, we show a comparison between the original STELLAR predictions (left) vs. 
 **Fig. b. Confusion matrix for B009_Trans_CL_reg001 dataset.**
 
 ---
+
+#### Dot plot for biomarker expression of one cell type across HRApop datasets
+
+HRApop data is provided as Linked Open Data in the form of a graph that can be queried with [SPARQL](https://sparql.dev/). To visualize the output of those queries, we exemplarily provided a SPARQL query to retrieve a list of all datasets with an input cell type, with one biomarker characterizing that cell type per row. The query is documented [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct). The request URL is [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop//datasets-with-ct?endpoint=https%3A%2F%2Flod.humanatlas.io%2Fsparql&celltype=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000136).
+
+We visualized the output of the query as a dot plot via Jupyter Notebook, which can be found [here](../analysis_and_plots/gene-expression-plot.ipynb). The dot plot is below. Click 
+
+
+<img alt="alt_text" width="100%" src="images/dot_plot_preview.jpg">
+**Fig. c. Dot plot for biomarker expression values for one cell type across HRApop dataset**
