@@ -51,9 +51,28 @@ Crosswalk tables for cell type annotation tools:
  - All 3 crosswalks as graph: [https://github.com/hubmapconsortium/hra-workflows-runner/blob/main/crosswalking-tables/crosswalks.jsonld](https://github.com/hubmapconsortium/hra-workflows-runner/blob/main/crosswalking-tables/crosswalks.jsonld)
 
 ---
-#### Atlas usage: US#1-2
+#### Atlas use case preview: Facilitating atlas construction by aligning new tissue blocks with existing data
 
-Explore at [https://humanatlas.io/overview-use-the-hra](https://humanatlas.io/overview-use-the-hra)
+User stories US#1-2 have been partially implemented and can be explored online via the HRA Portal at [https://humanatlas.io/overview-use-the-hra](https://humanatlas.io/overview-use-the-hra)\
+HRApop workflows: [https://github.com/x-atlas-consortia/hra-pop](https://github.com/x-atlas-consortia/hra-pop)\
+HRApop workflow runner: [https://github.com/hubmapconsortium/hra-workflows-runner](https://github.com/hubmapconsortium/hra-workflows-runner)\
+HRApop enriched dataset graph: [https://purl.humanatlas.io/graph/hra-pop](https://purl.humanatlas.io/graph/hra-pop)
+
+
+---
+
+
+#### Dot plot for biomarker expression of one cell type across HRApop datasets
+
+HRApop data is provided as Linked Open Data in the form of a graph that can be queried with [SPARQL](https://sparql.dev/). To visualize the output of those queries, we exemplarily provided a SPARQL query to retrieve a list of all datasets with an input cell type, with one biomarker characterizing that cell type per row. The query is documented [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct). The request URL is [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop//datasets-with-ct?endpoint=https%3A%2F%2Flod.humanatlas.io%2Fsparql&celltype=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000136).
+
+We visualized the output of the query as a dot plot via Jupyter Notebook, which can be found [here](../analysis_and_plots/gene-expression-plot.ipynb). The dot plot is below. Click the Load button to view the full figure in a new tab. 
+
+<a target="_blank" href="images/dot_plot_full.png"><img alt="alt_text" width="84px" src="images/button_load.png" /></a>
+
+<a target="_blank" href="images/dot_plot_full.png"><img alt="alt_text" width="75%" src="images/dot_plot_preview.png"></a>
+
+**Fig. a. Dot plot for biomarker expression values for one cell type across HRApop dataset**
 
 ---
 
@@ -65,9 +84,9 @@ Link to data on Google Drive: [https://drive.google.com/drive/folders/1LX4PHzohr
 Link to code on GitHub: [https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main/perivascular-immune-cells-in-lung](https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main/perivascular-immune-cells-in-lung) 
 
 
-<a target="_blank" href="https://hubmapconsortium.github.io/hra-registrations/"><img alt="alt_text" width="84px" src="images/button_load.png" /></a>
+<a target="_blank" href="https://hubmapconsortium.github.io/hra-registrations/hubmap-lung-pryhuber-2023/"><img alt="alt_text" width="84px" src="images/button_load.png" /></a>
 
-<a target="_blank" href="https://hubmapconsortium.github.io/hra-registrations/"><img alt="alt_text" width="75%" src="images/eui_lung_preview_placeholder.png"></a>
+<a target="_blank" href="https://hubmapconsortium.github.io/hra-registrations/hubmap-lung-pryhuber-2023/"><img alt="alt_text" width="75%" src="images/eui_lung_preview.png"></a>
 
 ---
 
@@ -86,21 +105,9 @@ The cell type predictions for the same dataset, using the current version of the
 Below, we show a comparison between the original STELLAR predictions (left) vs. the predictions from the current version of the cell type model (right) for one dataset, see **Fig. a**. We also show a confusion matrix for the cell type categories for the same dataset, see **Fig. b**.
 
 <img alt="alt_text" width="100%" src="images/prediction-comparison.png">\
-**Fig. a. Comparison between cell type predictions form STELLAR (left) and development version of cell type model (right).**
+**Fig. b. Comparison between cell type predictions from STELLAR (left) and development version of cell type model (right).**
 
 <img alt="alt_text" width="100%" src="images/confusion_matrix_cropped.png">
-**Fig. b. Confusion matrix for B009_Trans_CL_reg001 dataset.**
+**Fig. c. Confusion matrix for B009_Trans_CL_reg001 dataset.**
 
 ---
-
-#### Dot plot for biomarker expression of one cell type across HRApop datasets
-
-HRApop data is provided as Linked Open Data in the form of a graph that can be queried with [SPARQL](https://sparql.dev/). To visualize the output of those queries, we exemplarily provided a SPARQL query to retrieve a list of all datasets with an input cell type, with one biomarker characterizing that cell type per row. The query is documented [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct). The request URL is [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop//datasets-with-ct?endpoint=https%3A%2F%2Flod.humanatlas.io%2Fsparql&celltype=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000136).
-
-We visualized the output of the query as a dot plot via Jupyter Notebook, which can be found [here](../analysis_and_plots/gene-expression-plot.ipynb). The dot plot is below. Click the Load button to view the full figure in a new tab. 
-
-<a target="_blank" href="https://hubmapconsortium.github.io/hra-registrations/hubmap-intestine-snyder-2023/"><img alt="alt_text" width="84px" src="images/dot_plot_full.png" /></a>
-
-
-<img alt="alt_text" width="100%" src="images/dot_plot_preview.jpg">
-**Fig. c. Dot plot for biomarker expression values for one cell type across HRApop dataset**
