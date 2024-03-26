@@ -18,7 +18,7 @@ options(scipen=999)
 # Load Data
 
 ```{r data}
-data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.9.0/reports/atlas/validation-v5.csv",
+data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.8.3/reports/atlas/validation-v5.csv",
                  header=T)
 ```
 
@@ -34,8 +34,9 @@ data$organ <- data$organ %>%
 
 # Remove spatial data
 data <- data[data$modality!="sc_proteomics",]
-data$cell_name <- paste0(data$cell_id,"-",data$cell_label)
 
+# Combine cell_id and cell_label
+data$cell_name <- paste0(data$cell_id,"-",data$cell_label)
 ```
 
 # Heatmaps Analysis
@@ -51,7 +52,7 @@ data_hm <- data[,c(7,13,14)] %>%
                           values_fn = mean)
 
 # Convert DF to a matrix
-data_hmp <- data.matrix(data_hm[,2:459])
+data_hmp <- data.matrix(data_hm[,2:ncol(data_hm)])
 
 # Assign Row.names as organs
 rownames(data_hmp) <- data_hm$organ 
@@ -77,7 +78,7 @@ data_ha <- data %>%
                           values_fn = mean)
 
 # Convert DF to a matrix
-data_hap <- data.matrix(data_ha[,2:94])
+data_hap <- data.matrix(data_ha[,2:ncol(data_ha)])
 
 # Assign Row.names as organs
 rownames(data_hap) <- data_ha$organ 
@@ -103,7 +104,7 @@ data_hc <- data %>%
                           values_fn = mean)
 
 # Convert DF to a matrix
-data_hcp <- data.matrix(data_hc[,2:234])
+data_hcp <- data.matrix(data_hc[,2:ncol(data_hc)])
 
 # Assign Row.names as organs
 rownames(data_hcp) <- data_hc$organ 
@@ -129,7 +130,7 @@ data_hp <- data %>%
                           values_fn = mean)
 
 # Convert DF to a matrix
-data_hpv <- data.matrix(data_hp[,2:87])
+data_hpv <- data.matrix(data_hp[,2:ncol(data_hp)])
 
 # Assign Row.names as organs
 rownames(data_hpv) <- data_hp$organ 
