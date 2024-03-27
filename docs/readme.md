@@ -76,13 +76,6 @@ The  Linked Open Data (LOD) server supports [SPARQL](https://sparql.dev/) querie
 
 **SI Figure 3. UMAP plot of dataset similarity based on shared anatomical structures. a.** The similarity of the 553 atlas-level datasets is plotted here based on the percentage of shared anatomical structures using mesh-level collision detection. Weighted cosine is used here and in US#2 available via the HRA Portal at [https://humanatlas.io/user-story/2](https://humanatlas.io/user-story/2). Datasets cluster by organ, see legend on right. **b.** Major extraction sites for the small intestine, female. **c.** Extraction sites in male. **d.** UMAP zoom into four subclusters for the small intestine reveals the four major extraction sites. Full versions for UMAP plots are provided [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/HRA_UMAP_ASTissuePercent.ipynb).  
 
-
----
-
-
-
-
-
 ---
 
 #### Atlas use case preview: Perivascular immune cells in lung
@@ -120,5 +113,3 @@ We show a comparison between the original STELLAR predictions (**SI Fig. 4, left
 <img alt="alt_text" width="100%" src="images/confusion_matrix_cropped.png">
 
 **SI Figure 5. Confusion matrix for B009_Trans_CL_reg001 dataset.**
-
----
