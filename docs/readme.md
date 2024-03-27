@@ -64,16 +64,15 @@ This paper uses the HRApop v0.8.3 run and all data is available via:
 
 The  Linked Open Data (LOD) server supports [SPARQL](https://sparql.dev/) queries. For easy access to data that is of general utility, pre-made SPARQL queries are provided as web API endpoints via [grlc](https://grlc.io). For example, HRApop users might be interested to examine the biomarker expression values for one cell type across HRApop datasets for specific anatomical structures (**Fig. 1**) or explore similarity of the 553 datasets used in HRApop construction based on shared cell type populations (**Fig. 2**) or shared anatomical structures based on mesh-level collision detection (**Fig. 3**). 
 
-<a target="_blank" href="images/dot_plot_full.png"><img alt="alt_text" width="84px" src="images/button_load.png" /></a>
-
 <a target="_blank" href="images/dot_plot_full.png"><img alt="alt_text" width="75%" src="images/dot_plot_preview.png"></a>
 
 **SI Figure 1: Dot plot for biomarker expression of one cell type across HRApop datasets.** Use the [`/datasets-with-ct`](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct) SPARQL query to retrieve all atlas datasets with a given cell type. For cell type ‘adipocyte’, the query returns 106 datasets with that cell type (all were annotated by Azimuth, no other cell type annotation tool assigns an adipocyte cell type) and with a total of 421 biomarkers characterizing that cell type across six anatomical structures. The query is documented [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct). The request URL is [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop//datasets-with-ct?endpoint=https%3A%2F%2Flod.humanatlas.io%2Fsparql&celltype=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000136). The Jupyter Notebook to render the visualization is [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/gene-expression-plot.ipynb).
 
-
+<a target="_blank" href="images/si_fig_2_placeholder.png"><img alt="alt_text" width="75%" src="images/si_fig_2_placeholder.png"></a>
 
 **SI Figure 2. Heatmaps for prevalence of cell type across organs in HRApop dataset. a.** Azimuth can be run over 4 organs. **b.** CellTypist is available for six organs. **c.** popV was run for 10 organs. Each heatmap box represents a scaled mean value (z-score) for percentage of cells identified in each data set.  A score of 3 indicates that the value is 3 standard deviations from the mean of a given cell type across data sets for a given tool. Full versions for all three plots are provided [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/hrapop-heatmap_azimuth.png) (Azimuth), [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/hrapop-heatmap_celltypist.png) (CellTypist), and [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/hrapop-heatmap_popv.png) (popV). The R Markdown document to generate these visualizations is [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/HRA_HeatmapAnalysis_CellTypePer.Rmd). 
 
+<a target="_blank" href="images/si_fig_3_placeholder.png"><img alt="alt_text" width="75%" src="images/si_fig_3_placeholder.png"></a>
 
 **SI Figure 3. UMAP plot of dataset similarity based on shared anatomical structures. a.** The similarity of the 553 atlas-level datasets is plotted here based on the percentage of shared anatomical structures using mesh-level collision detection. Weighted cosine is used here and in US#2 available via the HRA Portal at [https://humanatlas.io/user-story/2](https://humanatlas.io/user-story/2). Datasets cluster by organ, see legend on right. **b.** Major extraction sites for the small intestine, female. **c.** Extraction sites in male. **d.** UMAP zoom into four subclusters for the small intestine reveals the four major extraction sites. Full versions for UMAP plots are provided [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/HRA_UMAP_ASTissuePercent.ipynb).  
 
@@ -112,12 +111,14 @@ Link to worksheet on GitHub: [https://github.com/HickeyLab/Hierarchical-Tissue-U
 <a target="_blank" href="https://hubmapconsortium.github.io/hra-registrations/hubmap-intestine-snyder-2023/"><img alt="alt_text" width="75%" src="images/john_hickey_eui.png"></a>
 
 The cell type predictions for the same dataset, using the current version of the cell type model by the Van Valen lab are also made available at [https://drive.google.com/drive/folders/1W0MVcc4Zx1pPHmshSohhzYIcvFxyFBDi](https://drive.google.com/drive/folders/1W0MVcc4Zx1pPHmshSohhzYIcvFxyFBDi). 
-Below, we show a comparison between the original STELLAR predictions (left) vs. the predictions from the current version of the cell type model (right) for one dataset, see **Fig. a**. We also show a confusion matrix for the cell type categories for the same dataset, see **Fig. b**.
+We show a comparison between the original STELLAR predictions (**SI Fig. 4, left**) vs. the predictions from the development version of the cell type model (**SI Fig. 4, right**) for one dataset. We also show a confusion matrix for the cell type categories for the same dataset, see **SI Fig. 5**.
 
-<img alt="alt_text" width="100%" src="images/prediction-comparison.png">\
-**Fig. b. Comparison between cell type predictions from STELLAR (left) and development version of cell type model (right).**
+<img alt="alt_text" width="100%" src="images/prediction-comparison.png">
+
+**SI Figure 4. Comparison between cell type predictions from STELLAR (left) and development version of cell type model (right).**
 
 <img alt="alt_text" width="100%" src="images/confusion_matrix_cropped.png">
-**Fig. c. Confusion matrix for B009_Trans_CL_reg001 dataset.**
+
+**SI Figure 5. Confusion matrix for B009_Trans_CL_reg001 dataset.**
 
 ---
