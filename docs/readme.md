@@ -58,21 +58,31 @@ HRApop workflows: [https://github.com/x-atlas-consortia/hra-pop](https://github.
 HRApop workflow runner: [https://github.com/hubmapconsortium/hra-workflows-runner](https://github.com/hubmapconsortium/hra-workflows-runner)\
 HRApop enriched dataset graph: [https://purl.humanatlas.io/graph/hra-pop](https://purl.humanatlas.io/graph/hra-pop)
 
+This paper uses the HRApop v0.8.3 run and all data is available via:
+ - LOD server: [https://lod.humanatlas.io/ds-graph/hra-pop-full/v0.8.3](https://lod.humanatlas.io/ds-graph/hra-pop-full/v0.8.3)  
+ - GitHub: [https://github.com/x-atlas-consortia/hra-pop/tree/main/output-data/v0.8.3](https://github.com/x-atlas-consortia/hra-pop/tree/main/output-data/v0.8.3)  
 
----
-
-
-#### Dot plot for biomarker expression of one cell type across HRApop datasets
-
-HRApop data is provided as Linked Open Data in the form of a graph that can be queried with [SPARQL](https://sparql.dev/). To visualize the output of those queries, we exemplarily provided a SPARQL query to retrieve a list of all datasets with an input cell type, with one biomarker characterizing that cell type per row. The query is documented [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct). The request URL is [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop//datasets-with-ct?endpoint=https%3A%2F%2Flod.humanatlas.io%2Fsparql&celltype=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000136).
-
-We visualized the output of the query as a dot plot via Jupyter Notebook, which can be found [here](../analysis_and_plots/gene-expression-plot.ipynb). The dot plot is below. Click the Load button to view the full figure in a new tab. 
+The  Linked Open Data (LOD) server supports [SPARQL](https://sparql.dev/) queries. For easy access to data that is of general utility, pre-made SPARQL queries are provided as web API endpoints via [grlc](https://grlc.io). For example, HRApop users might be interested to examine the biomarker expression values for one cell type across HRApop datasets for specific anatomical structures (**Fig. 1**) or explore similarity of the 553 datasets used in HRApop construction based on shared cell type populations (**Fig. 2**) or shared anatomical structures based on mesh-level collision detection (**Fig. 3**). 
 
 <a target="_blank" href="images/dot_plot_full.png"><img alt="alt_text" width="84px" src="images/button_load.png" /></a>
 
 <a target="_blank" href="images/dot_plot_full.png"><img alt="alt_text" width="75%" src="images/dot_plot_preview.png"></a>
 
-**Fig. a. Dot plot for biomarker expression values for one cell type across HRApop dataset**
+**SI Figure 1: Dot plot for biomarker expression of one cell type across HRApop datasets.** Use the [`/datasets-with-ct`](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct) SPARQL query to retrieve all atlas datasets with a given cell type. For cell type ‘adipocyte’, the query returns 106 datasets with that cell type (all were annotated by Azimuth, no other cell type annotation tool assigns an adipocyte cell type) and with a total of 421 biomarkers characterizing that cell type across six anatomical structures. The query is documented [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct). The request URL is [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop//datasets-with-ct?endpoint=https%3A%2F%2Flod.humanatlas.io%2Fsparql&celltype=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000136). The Jupyter Notebook to render the visualization is [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/gene-expression-plot.ipynb).
+
+
+
+**SI Figure 2. Heatmaps for prevalence of cell type across organs in HRApop dataset. a.** Azimuth can be run over 4 organs. **b.** CellTypist is available for six organs. **c.** popV was run for 10 organs. Each heatmap box represents a scaled mean value (z-score) for percentage of cells identified in each data set.  A score of 3 indicates that the value is 3 standard deviations from the mean of a given cell type across data sets for a given tool. Full versions for all three plots are provided [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/hrapop-heatmap_azimuth.png) (Azimuth), [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/hrapop-heatmap_celltypist.png) (CellTypist), and [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/hrapop-heatmap_popv.png) (popV). The R Markdown document to generate these visualizations is [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/HRA_HeatmapAnalysis_CellTypePer.Rmd). 
+
+
+**SI Figure 3. UMAP plot of dataset similarity based on shared anatomical structures. a.** The similarity of the 553 atlas-level datasets is plotted here based on the percentage of shared anatomical structures using mesh-level collision detection. Weighted cosine is used here and in US#2 available via the HRA Portal at [https://humanatlas.io/user-story/2](https://humanatlas.io/user-story/2). Datasets cluster by organ, see legend on right. **b.** Major extraction sites for the small intestine, female. **c.** Extraction sites in male. **d.** UMAP zoom into four subclusters for the small intestine reveals the four major extraction sites. Full versions for UMAP plots are provided [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/HRA_UMAP_ASTissuePercent.ipynb).  
+
+
+---
+
+
+
+
 
 ---
 
