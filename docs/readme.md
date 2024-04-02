@@ -22,6 +22,7 @@ Bruce W. Herr II, <bherr@iu.edu>
 
 ---
 
+[Link to preprint](https://doi.org/10.1101/2024.03.27.587041 )\
 [Link to HuBMAP Portal](https://portal.hubmapconsortium.org)\
 [Link to HRA Portal](https://humanatlas.io)\
 [Link to GitHub repository](https://github.com/cns-iu/hra-construction-usage-supporting-information)
