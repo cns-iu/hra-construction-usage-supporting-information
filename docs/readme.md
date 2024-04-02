@@ -13,7 +13,7 @@ Katy Börner<sup>1,\*,2</sup>, Philip D. Blood<sup>3</sup>, Jonathan C. Silverst
 <sup>9</sup> Department of Biomedical Engineering, Duke University, Durham, NC, USA\
 <sup>10</sup> New York Genome Center, New York, NY, USA\
 <sup>11</sup> J. Craig Venter Institute, La Jolla, CA, USA\
-<sup>12</sup> Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA\
+<sup>12</sup> Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA
 
 \* Corresponding authors: \
 Katy Börner, <katy@iu.edu>\
@@ -84,7 +84,9 @@ The  Linked Open Data (LOD) server supports [SPARQL](https://sparql.dev/) querie
 
 A use case featuring an example application using the Vitessce visualization tool to visualize similar locations of healthy adult compared to pediatric lung with BPD disease to demonstrate an assessment of multiple cell types relative to nearest endothelial cell nuclei using single-cell spatial protein biomarker data.
 
-Link to data on Google Drive: [https://drive.google.com/drive/folders/1LX4PHzohrK5l_2G5szZEdxz8iTvIztx2](https://drive.google.com/drive/folders/1LX4PHzohrK5l_2G5szZEdxz8iTvIztx2) \
+Link to data on Google Drive: [https://drive.google.com/drive/folders/1LX4PHzohrK5l_2G5szZEdxz8iTvIztx2](https://drive.google.com/drive/folders/1LX4PHzohrK5l_2G5szZEdxz8iTvIztx2) 
+***Disclaimer**: The datasets for this analysis are still in preparation for upload to the [HuBMAP Portal](https://portal.hubmapconsortium.org/). As a result, the Tissue Datasets field in the Exploration User Interface linked below will show 0. We provide these two datasets via Google Drive for the time being. Once the datasets are on the HuBMAP Portal, this field will be updated.*
+
 Link to code on GitHub: [https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main/perivascular-immune-cells-in-lung](https://github.com/cns-iu/hra-construction-usage-supporting-information/tree/main/perivascular-immune-cells-in-lung) 
 
 
