@@ -25,7 +25,7 @@ Bruce W. Herr II, <bherr@iu.edu>
 [Link to preprint](https://doi.org/10.1101/2024.03.27.587041)\
 [Link to HuBMAP Portal](https://portal.hubmapconsortium.org)\
 [Link to HRA Portal](https://humanatlas.io)\
-[Link to GitHub repository](https://github.com/cns-iu/hra-construction-usage-supporting-information)
+[Link to GitHub Repository](https://github.com/cns-iu/hra-construction-usage-supporting-information)
 
 ---
 
@@ -43,34 +43,33 @@ Click on architecture components to explore resources, APIs, and applications.
 
 Crosswalk tables for 3D Reference Objects:
 
-- Anatomical Structures, Cell Types and Biomarkers (ASCT+B) Tables to 3D Reference Object Library Mapping: [https://github.com/hubmapconsortium/ccf-releases/blob/main/v2.0/models/asct-b-3d-models-crosswalk.csv](https://github.com/hubmapconsortium/ccf-releases/blob/main/v2.0/models/asct-b-3d-models-crosswalk.csv)
+- Anatomical Structures, Cell Types and Biomarkers (ASCT+B) Tables to 3D Reference Object Library Mapping: [https://doi.org/10.48539/HBM224.QJKZ.987](https://doi.org/10.48539/HBM224.QJKZ.987)
 
 Crosswalk tables for cell type annotation tools:
 
-- Azimuth: [https://github.com/hubmapconsortium/hra-workflows-runner/blob/main/crosswalking-tables/azimuth.csv](https://github.com/hubmapconsortium/hra-workflows-runner/blob/main/crosswalking-tables/azimuth.csv)
-- CellTypist: [https://github.com/hubmapconsortium/hra-workflows-runner/blob/main/crosswalking-tables/celltypist.csv](https://github.com/hubmapconsortium/hra-workflows-runner/blob/main/crosswalking-tables/celltypist.csv)
-- popV: [https://github.com/hubmapconsortium/hra-workflows-runner/blob/main/crosswalking-tables/popv.csv](https://github.com/hubmapconsortium/hra-workflows-runner/blob/main/crosswalking-tables/popv.csv)
-- All 3 crosswalks as graph: [https://github.com/hubmapconsortium/hra-workflows-runner/blob/main/crosswalking-tables/crosswalks.jsonld](https://github.com/hubmapconsortium/hra-workflows-runner/blob/main/crosswalking-tables/crosswalks.jsonld)
+- Azimuth: [https://doi.org/10.48539/HBM587.ZSWT.783](https://doi.org/10.48539/HBM587.ZSWT.783)
+- CellTypist: [https://doi.org/10.48539/HBM478.ZWDH.384](https://doi.org/10.48539/HBM478.ZWDH.384)
+- popV: [https://doi.org/10.48539/HBM978.STZB.569](https://doi.org/10.48539/HBM978.STZB.569)
 
 ---
 
 #### Atlas use case preview: Facilitating atlas construction by aligning new tissue blocks with existing data
 
 User stories US#1-2 have been partially implemented and can be explored online via the HRA Portal at [https://humanatlas.io/overview-use-the-hra](https://humanatlas.io/overview-use-the-hra)\
-HRApop workflows: [https://github.com/x-atlas-consortia/hra-pop](https://github.com/x-atlas-consortia/hra-pop)\
-HRApop workflow runner: [https://github.com/hubmapconsortium/hra-workflows-runner](https://github.com/hubmapconsortium/hra-workflows-runner)\
-HRApop enriched dataset graph: [https://purl.humanatlas.io/graph/hra-pop](https://purl.humanatlas.io/graph/hra-pop)
 
-This paper uses the HRApop v0.8.3 run and all data is available via:
+- HRApop workflows: [https://github.com/hubmapconsortium/hra-workflows](https://github.com/hubmapconsortium/hra-workflows)
+- HRApop workflow runner: [https://github.com/hubmapconsortium/hra-workflows-runner](https://github.com/hubmapconsortium/hra-workflows-runner)
+- HRApop enriched dataset graph: [https://lod.humanatlas.io/graph/hra-pop/v0.8.3/](https://lod.humanatlas.io/graph/hra-pop/v0.8.3/)
 
-- LOD server: [https://lod.humanatlas.io/ds-graph/hra-pop-full/v0.8.3](https://lod.humanatlas.io/ds-graph/hra-pop-full/v0.8.3)
+This paper uses the HRApop v0.8.3 run and all data is available via 
+- Linked Open Data (LOD) server: [https://lod.humanatlas.io/ds-graph/hra-pop-full/v0.8.3](https://lod.humanatlas.io/ds-graph/hra-pop-full/v0.8.3)
 - GitHub: [https://github.com/x-atlas-consortia/hra-pop/tree/main/output-data/v0.8.3](https://github.com/x-atlas-consortia/hra-pop/tree/main/output-data/v0.8.3)
 
-The Linked Open Data (LOD) server supports [SPARQL](https://sparql.dev/) queries. For easy access to data that is of general utility, pre-made SPARQL queries are provided as web API endpoints via [grlc](https://grlc.io). For example, HRApop users might be interested to examine the biomarker expression values for one cell type across HRApop datasets for specific anatomical structures (**Fig. 1**) or explore similarity of the 553 datasets used in HRApop construction based on shared cell type populations (**Fig. 2**) or shared anatomical structures based on mesh-level collision detection (**Fig. 3**).
+The LOD server supports [SPARQL](https://www.w3.org/TR/sparql11-query/) queries. For easy access to data that is of general utility, pre-made SPARQL queries are provided as web API endpoints via [grlc](https://grlc.io). For example, HRApop users might be interested to examine the biomarker expression values for one cell type across HRApop datasets for specific anatomical structures (**Fig. 1**) or explore similarity of the 553 datasets used in HRApop construction based on shared cell type populations (**Fig. 2**) or shared anatomical structures based on mesh-level collision detection (**Fig. 3**).
 
 <a target="_blank" href="images/dot_plot_full.png"><img alt="alt_text" width="75%" src="images/SI-fig1-cte.png"></a>
 
-**SI Figure 1: Dot plot for biomarker expression of one cell type across HRApop datasets.** Use the [`/datasets-with-ct`](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct) SPARQL query to retrieve all atlas datasets with a given cell type. For cell type ‘adipocyte’, the query returns 106 datasets with that cell type (all were annotated by Azimuth, no other cell type annotation tool assigns an adipocyte cell type) and with a total of 421 biomarkers characterizing that cell type across six anatomical structures. The query is documented [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct). The request URL is [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop//datasets-with-ct?endpoint=https%3A%2F%2Flod.humanatlas.io%2Fsparql&celltype=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000136). The Jupyter Notebook to render the visualization is [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/gene-expression-plot.ipynb).
+**SI Figure 1: Dot plot for biomarker expression of one cell type across HRApop datasets.** Use the [`/datasets-with-ct`](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct) SPARQL query to retrieve all atlas datasets with a given cell type. For cell type ‘adipocyte’, the query returns 106 datasets with that cell type (all were annotated by Azimuth, no other cell type annotation tool assigns an adipocyte cell type) and with a total of 421 biomarkers characterizing that cell type across six anatomical structures. The query is documented [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct). The Jupyter Notebook to render the visualization is [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/gene-expression-plot.ipynb).
 
 <a target="_blank" href="images/SI-fig2a-hrapop-heatmap_azimuth.png"><img alt="alt_text" width="75%" src="images/SI-fig2a-hrapop-heatmap_azimuth-cte.png"></a>
 <a target="_blank" href="images/SI-fig2b-hrapop-heatmap_celltypist.png"><img alt="alt_text" width="75%" src="images/SI-fig2b-hrapop-heatmap_celltypist-cte.png"></a>
