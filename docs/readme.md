@@ -22,6 +22,7 @@ Bruce W. Herr II, <bherr@iu.edu>
 
 ---
 
+[Link to HuBMAP Consortium Website](https://hubmapconsortium.org/)\
 [Link to preprint](https://doi.org/10.1101/2024.03.27.587041)\
 [Link to HuBMAP Portal](https://portal.hubmapconsortium.org)\
 [Link to HRA Portal](https://humanatlas.io)\
@@ -59,17 +60,17 @@ User stories US#1-2 have been partially implemented and can be explored online v
 
 - HRApop workflows: [https://github.com/hubmapconsortium/hra-workflows](https://github.com/hubmapconsortium/hra-workflows)
 - HRApop workflow runner: [https://github.com/hubmapconsortium/hra-workflows-runner](https://github.com/hubmapconsortium/hra-workflows-runner)
-- HRApop enriched dataset graph: [https://lod.humanatlas.io/graph/hra-pop/v0.8.3/](https://lod.humanatlas.io/graph/hra-pop/v0.8.3/)
+- HRApop enriched dataset graph: [https://lod.humanatlas.io/graph/hra-pop/latest/](https://lod.humanatlas.io/graph/hra-pop/latest/)
 
-This paper uses the HRApop v0.8.3 run and all data is available via 
-- Linked Open Data (LOD) server: [https://lod.humanatlas.io/ds-graph/hra-pop-full/v0.8.3](https://lod.humanatlas.io/ds-graph/hra-pop-full/v0.8.3)
-- GitHub: [https://github.com/x-atlas-consortia/hra-pop/tree/main/output-data/v0.8.3](https://github.com/x-atlas-consortia/hra-pop/tree/main/output-data/v0.8.3)
+This paper uses the HRApop v0.10.2 run and all data is available via 
+- Linked Open Data (LOD) server: [https://lod.humanatlas.io/ds-graph/hra-pop-full/latest/](https://lod.humanatlas.io/ds-graph/hra-pop-full/latest/)
+- GitHub: [https://github.com/x-atlas-consortia/hra-pop/tree/main/output-data/v0.10.2](https://github.com/x-atlas-consortia/hra-pop/tree/main/output-data/v0.10.2)
 
 The LOD server supports [SPARQL](https://www.w3.org/TR/sparql11-query/) queries. For easy access to data that is of general utility, pre-made SPARQL queries are provided as web API endpoints via [grlc](https://grlc.io). For example, HRApop users might be interested to examine the biomarker expression values for one cell type across HRApop datasets for specific anatomical structures (**Fig. 1**) or explore similarity of the 553 datasets used in HRApop construction based on shared cell type populations (**Fig. 2**) or shared anatomical structures based on mesh-level collision detection (**Fig. 3**).
 
 <a target="_blank" href="images/dot_plot_full.png"><img alt="alt_text" width="75%" src="images/SI-fig1-cte.png"></a>
 
-**SI Figure 1: Dot plot for biomarker expression of one cell type across HRApop datasets.** Use the [`/datasets-with-ct`](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct) SPARQL query to retrieve all atlas datasets with a given cell type. For cell type ‘adipocyte’, the query returns 106 datasets with that cell type (all were annotated by Azimuth, no other cell type annotation tool assigns an adipocyte cell type) and with a total of 421 biomarkers characterizing that cell type across six anatomical structures. The query is documented [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct). The Jupyter Notebook to render the visualization is [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/gene-expression-plot.ipynb).
+**SI Figure 1: Dot plot for biomarker expression of one cell type across HRApop datasets.** Use the [`/datasets-with-ct`](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct) SPARQL query to retrieve all atlas datasets with a given cell type. For cell type ‘adipocyte’, the query returns 109 datasets with that cell type (all were annotated by Azimuth, no other cell type annotation tool assigns an adipocyte cell type) and with a total of 420 biomarkers characterizing that cell type. The query is documented [here](https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra-pop/#/default/get_datasets_with_ct). The Jupyter Notebook to render the visualization is [here](https://github.com/cns-iu/hra-construction-usage-supporting-information/blob/main/analysis_and_plots/gene-expression-plot.ipynb).
 
 <a target="_blank" href="images/SI-fig2a-hrapop-heatmap_azimuth.png"><img alt="alt_text" width="75%" src="images/SI-fig2a-hrapop-heatmap_azimuth-cte.png"></a>
 <a target="_blank" href="images/SI-fig2b-hrapop-heatmap_celltypist.png"><img alt="alt_text" width="75%" src="images/SI-fig2b-hrapop-heatmap_celltypist-cte.png"></a>
