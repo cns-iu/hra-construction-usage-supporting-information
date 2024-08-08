@@ -1,6 +1,6 @@
 # **Supporting Information for &quot;Human BioMolecular Atlas Program (HuBMAP): 3D Human Reference Atlas Construction and Usage&quot;**
 
-Katy Börner<sup>1,\*,2</sup>, Philip D. Blood<sup>3</sup>, Jonathan C. Silverstein<sup>4</sup>, Matthew Ruffalo<sup>5</sup>, Rahul Satija<sup>6</sup>, Sarah A. Teichmann<sup>2,7</sup>, Gloria Pryhuber<sup>8</sup>, Ravi Misra<sup>8</sup>, Jeffrey Purkerson<sup>8</sup>, Jean Fan<sup>9</sup>, John W. Hickey<sup>10</sup>, Gesmira Molla<sup>6</sup>, Chuan Xu<sup>7</sup>, Yun Zhang<sup>11</sup> Griffin Weber<sup>12</sup>, Yashvardhan Jain<sup>1</sup>, Danial Qaurooni<sup>1</sup>, Yongxin Kong<sup>1</sup>, HRA Team, Andreas Bueckle<sup>1,\*</sup>, Bruce W. Herr II<sup>1,\*</sup>
+Katy Börner<sup>1,2\*</sup>, Philip D. Blood<sup>3</sup>, Jonathan C. Silverstein<sup>4</sup>, Matthew Ruffalo<sup>5</sup>, Rahul Satija<sup>6</sup>, Sarah A. Teichmann<sup>2,7</sup>, Gloria Pryhuber<sup>8</sup>, Ravi Misra<sup>8</sup>, Jeffrey Purkerson<sup>8</sup>, Jean Fan<sup>9</sup>, John W. Hickey<sup>10</sup>, Gesmira Molla<sup>6</sup>, Chuan Xu<sup>7</sup>, Yun Zhang<sup>11</sup> Griffin Weber<sup>12</sup>, Yashvardhan Jain<sup>1</sup>, Danial Qaurooni<sup>1</sup>, Yongxin Kong<sup>1</sup>, HRA Team, Andreas Bueckle<sup>1\*</sup>, Bruce W. Herr II<sup>1\*</sup>
 
 <sup>1</sup> Department of Intelligent Systems Engineering, Luddy School of Informatics, Computing, and Engineering, Indiana University, Bloomington, IN, USA\
 <sup>2</sup> CIFAR MacMillan Multiscale Human program, CIFAR, Toronto, Canada
@@ -21,9 +21,8 @@ Andreas Bueckle, <abueckle@iu.edu>\
 Bruce W. Herr II, <bherr@iu.edu>
 
 ---
-
+[Link to Preprint](https://doi.org/10.1101/2024.03.27.587041)\
 [Link to HuBMAP Consortium Website](https://hubmapconsortium.org/)\
-[Link to preprint](https://doi.org/10.1101/2024.03.27.587041)\
 [Link to HuBMAP Portal](https://portal.hubmapconsortium.org)\
 [Link to HRA Portal](https://humanatlas.io)\
 [Link to GitHub Repository](https://github.com/cns-iu/hra-construction-usage-supporting-information)
@@ -56,14 +55,14 @@ Crosswalk tables for cell type annotation tools:
 
 #### Atlas use case preview: Facilitating atlas construction by aligning new tissue blocks with existing data
 
-User stories US#1-2 have been partially implemented and can be explored online via the HRA Portal at [https://humanatlas.io/overview-use-the-hra](https://humanatlas.io/overview-use-the-hra)\
+User stories US#1-2 have been partially implemented and can be explored online via the HRA Portal at [https://humanatlas.io/overview-use-the-hra](https://humanatlas.io/overview-use-the-hra)
 
 - HRApop workflows: [https://github.com/hubmapconsortium/hra-workflows](https://github.com/hubmapconsortium/hra-workflows)
 - HRApop workflow runner: [https://github.com/hubmapconsortium/hra-workflows-runner](https://github.com/hubmapconsortium/hra-workflows-runner)
-- HRApop enriched dataset graph: [https://lod.humanatlas.io/graph/hra-pop/latest/](https://lod.humanatlas.io/graph/hra-pop/latest/)
+- HRApop enriched dataset graph: [https://lod.humanatlas.io/graph/hra-pop/latest](https://lod.humanatlas.io/graph/hra-pop/latest/)
 
 This paper uses the HRApop v0.10.2 run and all data is available via 
-- Linked Open Data (LOD) server: [https://lod.humanatlas.io/ds-graph/hra-pop-full/latest/](https://lod.humanatlas.io/ds-graph/hra-pop-full/latest/)
+- Linked Open Data (LOD) server: [https://lod.humanatlas.io/ds-graph/hra-pop-full/latest](https://lod.humanatlas.io/ds-graph/hra-pop-full/latest/)
 - GitHub: [https://github.com/x-atlas-consortia/hra-pop/tree/main/output-data/v0.10.2](https://github.com/x-atlas-consortia/hra-pop/tree/main/output-data/v0.10.2)
 
 The LOD server supports [SPARQL](https://www.w3.org/TR/sparql11-query/) queries. For easy access to data that is of general utility, pre-made SPARQL queries are provided as web API endpoints via [grlc](https://grlc.io). For example, HRApop users might be interested to examine the biomarker expression values for one cell type across HRApop datasets for specific anatomical structures (**Fig. 1**) or explore similarity of the 553 datasets used in HRApop construction based on shared cell type populations (**Fig. 2**) or shared anatomical structures based on mesh-level collision detection (**Fig. 3**).
