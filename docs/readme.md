@@ -30,6 +30,11 @@ Bruce W. Herr II, <bherr@iu.edu>
 
 ---
 
+#### HuBMAP Portal, HuBMAP Data Portal, and HRA Portal
+The HuBMAP Portal ([https://hubmapconsortium.org](https://hubmapconsortium.org)) introduces goals and links to experimental and atlas data, tools, and training materials. The Data Portal ([https://portal.hubmapconsortium.org](https://portal.hubmapconsortium.org)) serves experimental datasets and supports data processing, search, filtering, and visualization. The Human Reference Atlas (HRA) Portal ([https://humanatlas.io](https://humanatlas.io)) provides open access to atlas data, code, procedures, and instructional materials. 
+
+---
+
 #### Flexible hybrid cloud microservices architecture
 
 <html></html>
