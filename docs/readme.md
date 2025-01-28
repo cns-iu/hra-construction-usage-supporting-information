@@ -45,13 +45,17 @@ Click on architecture components to explore resources, APIs, and applications.
 
 ---
 
-#### Selected counts from the paper
+#### Selected counts from the paper for HRA v2.0
 
-| **Count needed**                          	| **Query response** 	| **Link to query**                    	|
-|-------------------------------------------	|--------------------	|--------------------------------------	|
-| Number of unique UBERON IDs for 65 organs 	| 516                	| [https://api.triplydb.com/s/puMfazNpK](https://api.triplydb.com/s/puMfazNpK) 	|
-| XXX                                       	| XXX                	| XXX                                  	|
-| XXX                                       	| XXX                	| XXX                                  	|
+| Count Needed                                                                  	| Query Response                   	| Link to Query/Source                                                              	|
+|-------------------------------------------------------------------------------	|----------------------------------	|-----------------------------------------------------------------------------------	|
+| #ASCT+B                                                                       	| 33                               	| https://humanatlas.io/assets/table-data/asctb_release6.csv                        	|
+| Number of 3D Reference Objects for organs                                     	| 65                               	| https://api.triplydb.com/s/vS1axJ1as                                              	|
+| Number of unique UBERON IDs for 65 organs                                     	| 516                              	| https://api.triplydb.com/s/puMfazNpK                                              	|
+| Number of all anatomical structures with an Uberon ID                         	| 1,192                            	| https://api.triplydb.com/s/vS1axJ1as                                              	|
+| Number of all anatomical structures with an Uberon ID incl. organs themselves 	| 1,257                            	| https://api.triplydb.com/s/vS1axJ1as                                              	|
+| Unique Uberon IDs for 65 3D Reference Objects                                 	| 37                               	| https://api.triplydb.com/s/Rg93GoKzZ                                              	|
+| #FTUs, unique CTs, and #cells per CT                                           	| 22 FTUs<br>116 CT<br>3,742 cells 	| https://cdn.humanatlas.io/hra-releases/v2.0/2d-ftu/asct-b-2d-models-crosswalk.csv 	|
 
 ---
 
