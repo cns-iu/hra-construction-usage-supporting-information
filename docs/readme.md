@@ -45,6 +45,16 @@ Click on architecture components to explore resources, APIs, and applications.
 
 ---
 
+#### Selected counts from the paper
+
+| **Count needed**                          	| **Query response** 	| **Link to query**                    	|
+|-------------------------------------------	|--------------------	|--------------------------------------	|
+| Number of unique UBERON IDs for 65 organs 	| 516                	| [https://api.triplydb.com/s/puMfazNpK](https://api.triplydb.com/s/puMfazNpK) 	|
+| XXX                                       	| XXX                	| XXX                                  	|
+| XXX                                       	| XXX                	| XXX                                  	|
+
+---
+
 #### Atlas construction and publication
 
 Crosswalk tables for 3D Reference Objects:
