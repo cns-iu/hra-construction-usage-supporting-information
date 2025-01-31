@@ -55,7 +55,7 @@ Click on architecture components to explore resources, APIs, and applications.
 | Number of unique UBERON IDs for 65 organs                                                                              	|                              516 	| [https://api.triplydb.com/s/puMfazNpK](https://api.triplydb.com/s/puMfazNpK )                                             	|
 | Number of all 3D anatomical structures with an Uberon ID                                                               	|                            1,192 	| [https://api.triplydb.com/s/vS1axJ1as](https://api.triplydb.com/s/vS1axJ1as)                                              	|
 | Number of all anatomical structures with an Uberon ID including organs themselves                                      	|                            1,257 	| [https://api.triplydb.com/s/vS1axJ1as](https://api.triplydb.com/s/vS1axJ1as)                                              	|
-| Number of unique 2D FTUs their unique cell types (CTs), and the total number of cells selectable in FTU illustrations  	| 22 FTUs<br>116 CT<br>3,742 cells 	| [https://cdn.humanatlas.io/hra-releases/v2.0/2d-ftu/asct-b-2d-models-crosswalk.csv](https://cdn.humanatlas.io/hra-releases/v2.0/2d-ftu/asct-b-2d-models-crosswalk.csv) 	|
+| Number of unique 2D FTUs, their unique cell types (CTs), and the total number of cells selectable in FTU illustrations  	| 22 FTUs<br>116 CT<br>3,742 cells 	| [https://cdn.humanatlas.io/hra-releases/v2.0/2d-ftu/asct-b-2d-models-crosswalk.csv](https://cdn.humanatlas.io/hra-releases/v2.0/2d-ftu/asct-b-2d-models-crosswalk.csv) 	|
 
 ---
 
