@@ -23,6 +23,7 @@ Bruce W. Herr II, <bherr@iu.edu>
 
 ---
 [Link to Preprint](https://doi.org/10.1101/2024.03.27.587041)\
+[Link to high-resolution Supporting Figures](images/si-figures-combined.pdf)\
 [Link to HuBMAP Consortium Website](https://hubmapconsortium.org/)\
 [Link to Paper Publication Page](https://portal.hubmapconsortium.org/browse/publication/fa99f1ac5d1b1eb63d8e797149cc8902)\
 [Link to HuBMAP Portal](https://portal.hubmapconsortium.org)\
