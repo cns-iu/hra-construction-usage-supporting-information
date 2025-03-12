@@ -1,5 +1,5 @@
 ---
-name: Explore Tissue Data in 3D using the Exploration User Interface
+name: Explore Tissue Data in 3D using the Exploration User Interface and Cell Distance Explorer
 ---
   
 All HuBMAP tissue datasets used in this paper can be spatially explored in their three-dimensional size, position, and rotation in the context of the Human Reference Atlas using the Exploration User Interface (EUI). 
