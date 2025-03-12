@@ -6,17 +6,3 @@ All HuBMAP tissue datasets used in this paper can be spatially explored in their
 
 
 <iframe src="https://apps.humanatlas.io/eui/hra-pop.html" width="100%" height="600px"></iframe>
-
----
-
-Cell-to-nearest-endothelial-cell visualization in Cell Distance Explorer (CDE) for pediatric lung with bronchopulmonary dysplasia sample (D115) with 613,680 cells.
-
-
-<iframe src="https://cns-iu.github.io/hra-construction-usage-supporting-information/visualizations/D115.html" width="100%" height="600px"></iframe>
-
----
-
-Cell-to-nearest-endothelial-cell visualization in CDE for healthy adult lung sample (D265) with 622,784 cells.
-
-
-<iframe src="https://cns-iu.github.io/hra-construction-usage-supporting-information/visualizations/D265.html" width="100%" height="600px"></iframe>
