@@ -25,6 +25,7 @@ Bruce W. Herr II, <bherr@iu.edu>
 #### Links
 [Link to paper](https://www.nature.com/articles/s41592-024-02563-5)\
 [Link to high-resolution Supporting Figures](images/si-figures-combined.pdf)\
+[Link to Supporting Tables](images/si_tables_combined.pdf)\
 [Link to Paper Publication Page](https://portal.hubmapconsortium.org/browse/publication/fa99f1ac5d1b1eb63d8e797149cc8902)\
 [Link to GitHub Repository](https://github.com/cns-iu/hra-construction-usage-supporting-information)
 
