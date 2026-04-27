@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the associated Nature Methods article."
-title: "Supporting Information for Human BioMolecular Atlas Program (HuBMAP): 3D Human Reference Atlas Construction and Usage"
+title: "Human BioMolecular Atlas Program (HuBMAP): 3D Human Reference Atlas construction and usage"
 authors:
   - family-names: "Börner"
     given-names: "Katy"
